@@ -5,7 +5,7 @@ The CI pipeline runs this exact command on every push.
 """
 import pytest
 
-from calculator import add, subtract, multiply, divide
+from calculator import add, subtract, multiply, divide, power
 
 
 def test_add():
@@ -27,3 +27,7 @@ def test_divide():
 def test_divide_by_zero_raises():
     with pytest.raises(ValueError):
         divide(1, 0)
+
+
+def test_power():
+    assert power(2, 3) == 8
