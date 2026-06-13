@@ -1,7 +1,7 @@
 # DevOps CI Starter
 
 A tiny, ready-to-run project for learning Continuous Integration with GitHub Actions.
-It is deliberately small: four calculator functions and their tests. The point is the
+It is deliberately small: five calculator functions and their tests. The point is the
 pipeline, not the code.
 
 ## Follow along with the article
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 pytest
 ```
 
-You should see `5 passed`. That confirms the project works before any automation.
+You should see `6 passed`. That confirms the project works before any automation.
 
 ### 3. The pipeline is already here
 Look in `.github/workflows/ci.yml`. The moment you pushed to your own copy, GitHub
